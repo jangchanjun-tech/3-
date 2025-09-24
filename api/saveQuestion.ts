@@ -1,5 +1,5 @@
 import { GoogleSpreadsheet } from 'https://esm.sh/google-spreadsheet@4.1.1';
-import { JWT } from 'https://esm.sh/google-auth-library@10.3.0';
+import { JWT } from 'https://esm.sh/google-auth-library@^9.0.0';
 
 // Types are duplicated here to make the serverless function self-contained,
 // as it cannot reliably import from other project files like '../types'.
